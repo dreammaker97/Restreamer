@@ -1,1 +1,2 @@
+ARM64V8: (tx3mini)
 docker run -d --restart always --name restreamer -e "RS_USERNAME=admin" -e "RS_PASSWORD=datarhei" -p 6080:8080 -v /mnt/restreamer/db:/restreamer/db --tmpfs /tmp/hls datarhei/restreamer-aarch64:latest
